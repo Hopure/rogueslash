@@ -52,7 +52,7 @@ public class CharacterFactory
         Character _product = new Character(GetMasteryByID(id));
 
         // Initialisation des BaseStat suivant le job du personnage
-        _product.Stat = new StatPackage(_product.Job.BaseLife, _product.Job.BaseDamage);
+        //_product.Stat = new StatPackage(_product.Job.BaseLife, _product.Job.BaseDamage);
 
         // Assignation des skill de base du personnage à la création suivant son job
         _product.Skill = new SkillPackage();

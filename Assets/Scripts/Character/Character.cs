@@ -18,6 +18,7 @@ public class Character
     public Character(Mastery job)
     {
         Job = job;
+        Stat = new StatPackage(10);
     }
 
     // PRIVATES METHODS -----------------------------------------------------------------

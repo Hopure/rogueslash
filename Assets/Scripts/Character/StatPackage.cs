@@ -13,9 +13,9 @@ public class StatPackage
     public Statistic Damage;
 
     // CONSTRUCTOR ----------------------------------------------------------------------
-    public StatPackage(float life, float damage)
+    public StatPackage(float damage)
     {
-        Life = new Statistic(StatID.Life, "Life", life);
+        //Life = new Statistic(StatID.Life, "Life", life);
         Damage = new Statistic(StatID.Damage, "Damage", damage);
     }
 
